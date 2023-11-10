@@ -1,0 +1,2 @@
+[console_scripts]
+mi_programa = paquete.main:main
