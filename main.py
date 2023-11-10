@@ -1,5 +1,3 @@
-# Archivo: main.py
-
 from cliente import Cliente, ManejadorClientes
 from productos import ManejadorProductos
 

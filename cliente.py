@@ -1,4 +1,3 @@
-# En el archivo cliente.py
 import json
 
 ARCHIVO_CLIENTES = 'clientes.json'

@@ -1,4 +1,3 @@
-# En el archivo productos.py
 import json
 
 ARCHIVO_PRODUCTOS = 'productos.json'
@@ -19,8 +18,6 @@ class ManejadorProductos:
 
     def cargar_base_datos(self):
         productos_predefinidos = ["TV", "Heladera", "Celular", "Playstation"]
-
-        # Cargar productos predefinidos y devolver un diccionario
         return {producto: Producto(producto) for producto in productos_predefinidos}
 
     def guardar_base_datos(self):
